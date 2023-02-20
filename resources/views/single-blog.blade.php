@@ -34,30 +34,23 @@
 
 	<!-- Header section -->
 	<header class="header-section">
-		<div class="header-top">
+		<div class="header-top" style="background-color: grey;">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 header-top-left">
 						<div class="top-info">
-							<i class="fa fa-phone"></i>
-							(+92) 3017160701
+							Flat Rental System
 						</div>
-						<div class="top-info">
-							<i class="fa fa-envelope"></i>
-							rentallands@gmail.com
-						</div>
+						
 					</div>
 					<div class="col-lg-6 text-lg-right header-top-right">
-						<div class="top-social">
-							<a href=""><i class="fa fa-facebook"></i></a>
-							<a href=""><i class="fa fa-twitter"></i></a>
-							<a href=""><i class="fa fa-instagram"></i></a>
-							<a href=""><i class="fa fa-pinterest"></i></a>
-							<a href=""><i class="fa fa-linkedin"></i></a>
-						</div>
+						
 						<div class="user-panel">
+							
+						
 							<a href="#" id="registerbutton"><i class="fa fa-user-circle-o"></i> Register</a>
 							<a href="#" id="logbutton"><i class="fa fa-sign-in"></i> Login</a>
+							
 						</div>
 					</div>
 				</div>
@@ -67,13 +60,13 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="site-navbar">
-						<a href="#" class="site-logo"><img style="margin-top: -75px;" src="img/logo.png" alt=""></a>
+						
 						<div class="nav-switch">
 							<i class="fa fa-bars"></i>
 						</div>
 						<ul class="main-menu">
 							<li><a href="{{route('index')}}">Home</a></li>
-							<li><a href="{{route('about')}}">About US</a></li>
+							<li><a href="{{route('about')}}">About Us</a></li>
 							<li><a href="{{route('postpage')}}">Properties</a></li>
 							<li><a href="{{route('blog')}}">Blog</a></li>
 							<li><a href="{{route('contact')}}">Contact</a></li>
@@ -84,6 +77,7 @@
 		</div>
 	</header>
 	<!-- Header section end -->
+	
 
 	<!-- Page top section -->
 	<section class="page-top-section single-blog set-bg " data-setbg="img/page-top-bg.jpg">

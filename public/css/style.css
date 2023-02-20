@@ -131,14 +131,14 @@ ol {
 	position: relative;
 	display: inline-block;
 	padding: 15px 30px;
-	font-size: 16px;
+	font-size: 13px;
 	font-weight: 600;
-	line-height: 16px;
+	line-height: 3px;
 	letter-spacing: 2px;
 	border-radius: 3px;
 	min-width: 170px;
 	text-align: center;
-	background: #30caa0;
+	background: crimson;
 	cursor: pointer;
 	border: none;
 	color: #fff;
@@ -223,13 +223,14 @@ ol {
 .header-top {
 	padding: 12px 0;
 	border-bottom: 1px solid #667792;
-	margin-bottom: 40px;
+	margin-bottom: 2px;
 }
 
 .top-info {
-	font-size: 14px;
-	color: #fff;
+	font-size: 23px;
+	color: white;
 	display: inline-block;
+	font-weight: 800;
 }
 
 .top-info i {
@@ -291,7 +292,8 @@ ol {
 	text-transform: uppercase;
 	margin-left: 30px;
 	padding: 12px 5px;
-	font-size: 14px;
+	font-size: 19px;
+	font-weight: 500;
 }
 
 .main-menu li a:hover {
@@ -321,6 +323,7 @@ ol {
 .hero-text p {
 	font-size: 22px;
 	margin-bottom: 50px;
+	font-weight: 600;
 }
 
 /*------------------
@@ -333,25 +336,26 @@ ol {
 }
 
 .filter-form {
-	padding: 31px;
-	background: #30caa0;
+	padding: 13px;
+	background: crimson;
 	border-radius: 3px;
 }
 
 .filter-form input {
-	background: #fff;
-	height: 46px;
-	border: none;
-	border-radius: 2px;
-	width: calc(43% - 20px);
-	margin-right: 20px;
-	padding: 5px 20px;
-	font-size: 14px;
+    background: #fff;
+    height: 34px;
+    border: none;
+    border-radius: 2px;
+    margin-left: 123px;
+    width: calc(43% - 20px);
+    margin-right: 24px;
+    padding: 5px 20px;
+    font-size: 14px;
 }
 
 .filter-form select {
 	background: #fff;
-	height: 46px;
+	height: 34px;
 	border: none;
 	border-radius: 2px;
 	width: calc(20% - 20px);

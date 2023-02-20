@@ -34,30 +34,23 @@
 	
 	<!-- Header section -->
 	<header class="header-section">
-		<div class="header-top" style="background-color: green;">
+		<div class="header-top" style="background-color: grey;">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 header-top-left">
 						<div class="top-info">
-							<i class="fa fa-phone"></i>
-							+639123456789
+							Flat Rental System
 						</div>
-						<div class="top-info">
-							<i class="fa fa-envelope"></i>
-							piesrentalsystem@gmail.com
-						</div>
+						
 					</div>
 					<div class="col-lg-6 text-lg-right header-top-right">
-						<div class="top-social">
-							<a href=""><i class="fa fa-facebook"></i></a>
-							<a href=""><i class="fa fa-twitter"></i></a>
-							<a href=""><i class="fa fa-instagram"></i></a>
-							<a href=""><i class="fa fa-pinterest"></i></a>
-							<a href=""><i class="fa fa-linkedin"></i></a>
-						</div>
+						
 						<div class="user-panel">
+							
+						
 							<a href="#" id="registerbutton"><i class="fa fa-user-circle-o"></i> Register</a>
 							<a href="#" id="logbutton"><i class="fa fa-sign-in"></i> Login</a>
+							
 						</div>
 					</div>
 				</div>
@@ -67,7 +60,7 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="site-navbar">
-						<a href="#" class="site-logo"><img style="margin-top: -40px; opacity: 70%;" src="img/logo.png" alt=""></a>
+						
 						<div class="nav-switch">
 							<i class="fa fa-bars"></i>
 						</div>

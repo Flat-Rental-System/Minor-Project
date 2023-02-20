@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>House Rental System</title>
+<title>Flat Rental System</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="LERAMIZ Landing Page Template">
 	<meta name="keywords" content="LERAMIZ, unica, creative, html">
@@ -32,30 +32,23 @@
 	
 	<!-- Header section -->
 	<header class="header-section">
-		<div class="header-top" style="background-color: green;">
+		<div class="header-top" style="background-color: crimson;">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 header-top-left">
 						<div class="top-info">
-							<i class="fa fa-phone"></i>
-							+639123456789
+							Flat Rental System
 						</div>
-						<div class="top-info">
-							<i class="fa fa-envelope"></i>
-							piesrentalsystem@gmail.com
-						</div>
+						
 					</div>
 					<div class="col-lg-6 text-lg-right header-top-right">
-						<div class="top-social">
-							<a href=""><i class="fa fa-facebook"></i></a>
-							<a href=""><i class="fa fa-twitter"></i></a>
-							<a href=""><i class="fa fa-instagram"></i></a>
-							<a href=""><i class="fa fa-pinterest"></i></a>
-							<a href=""><i class="fa fa-linkedin"></i></a>
-						</div>
+						
 						<div class="user-panel">
+							
+						
 							<a href="#" id="registerbutton"><i class="fa fa-user-circle-o"></i> Register</a>
 							<a href="#" id="logbutton"><i class="fa fa-sign-in"></i> Login</a>
+							
 						</div>
 					</div>
 				</div>
@@ -65,7 +58,7 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="site-navbar">
-						<a href="#" class="site-logo"><img style="margin-top: -40px; opacity: 70%;" src="img/logo.png" alt=""></a>
+						
 						<div class="nav-switch">
 							<i class="fa fa-bars"></i>
 						</div>
@@ -73,7 +66,6 @@
 							<li><a href="{{route('index')}}">Home</a></li>
 							<li><a href="{{route('about')}}">About Us</a></li>
 							<li><a href="{{route('postpage')}}">Properties</a></li>
-							<li><a href="{{route('blog')}}">Blog</a></li>
 							<li><a href="{{route('contact')}}">Contact</a></li>
 						</ul>
 					</div>
@@ -87,8 +79,8 @@
 	<!-- Hero section -->
 	<section class="hero-section set-bg" data-setbg="img/bg.jpg">
 		<div class="container hero-text text-white">
-			<h2>find your place with our local life style</h2>
-			<p>Search real estate property records, houses, condos, land and more on rentalland.com®.<br>Find property info from the most comprehensive source data.</p>
+			<h2 style = "font-weight: 900"  >find your flats.... </h2>
+			<p>Search flats, rooms, hostels, PG's and more on flatrentalsystem.com®.</p>
 			<a href="{{route('postpage')}}" class="site-btn">VIEW DETAIL</a>
 		</div>
 	</section>
@@ -100,13 +92,11 @@
 			<form class="filter-form" action="{{route('search_property')}}" method="post">
 			@csrf
 				<input style="width:29%;" type="text" name="rent" placeholder="Amount range e.g 15,000">
-				<input style="width:29%;" type="text" name="c_name" placeholder="City">
+				
 				<select name="state">
-				<option value="">-</option>
-					<option value="Punjab">Kabankalan</option>
-					<option value="Sindh">Bacolod</option>
-					<option value="Kpk">Binalbagan</option>
-					<option value="Blochistan">Hinigaran</option>
+				<option value="">City</option>
+					<option value="Indore">Indore</option>
+				
 				</select>
 				<button type="submit" class="site-btn fs-submit">SEARCH</button>
 			</form>
@@ -118,32 +108,32 @@
 	<section class="feature-category-section spad">
 		<div class="container">
 			<div class="section-title text-center">
-				<h3>LOOKING PROPERTY</h3>
+				<h3>LOOKING FOR</h3>
 				<p>What kind of property are you looking for? We will help you</p>
 			</div>
 			<div class="row">
 				<div class="col-lg-3 col-md-6 f-cata">
 					<img src="img/feature-cate/1.jpg" alt="">
-					<h5>Apartment for rent</h5>
+					<h5>Flat for rent</h5>
 				</div>
 				<div class="col-lg-3 col-md-6 f-cata">
 					<img src="img/feature-cate/2.jpg" alt="">
-					<h5>Family Home</h5>
+					<h5>Hostel</h5>
 				</div>
 				<div class="col-lg-3 col-md-6 f-cata">
 					<img src="img/feature-cate/3.jpg" alt="">
-					<h5>Resort Villas</h5>
+					<h5>Rooms</h5>
 				</div>
 				<div class="col-lg-3 col-md-6 f-cata">
 					<img src="img/feature-cate/4.jpg" alt="">
-					<h5>Office Building</h5>
+					<h5>PG's</h5>
 				</div>
 			</div>
 		</div>
 	</section>
 	<!-- feature category section end-->
 
-	<!-- Services section -->
+	<!-- Services section
 	<section class="services-section spad set-bg" data-setbg="img/service-bg.jpg">
 		<div class="container">
 			<div class="row">
@@ -181,39 +171,41 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>  
+
+	 --> 
 	<!-- Services section end -->
 
 	<!-- Gallery section -->
 	<section class="gallery-section spad">
 		<div class="container">
 			<div class="section-title text-center">
-				<h3>Popular Places</h3>
+				<h3>Popular Places in Indore</h3>
 				<p>We understand the value and importance of place</p>
 			</div>
 			<div class="gallery">
 				<div class="grid-sizer"></div>
 				<a href="#" class="gallery-item grid-long set-bg" data-setbg="img/gallery/1.jpg">
 					<div class="gi-info">
-						<h3>Kabankalan</h3>
+						<h3>Bhawarkua</h3>
 						<p>118 Properties</p>
 					</div>
 				</a>
 				<a href="#" class="gallery-item grid-wide set-bg" data-setbg="img/gallery/2.jpg">
 					<div class="gi-info">
-						<h3>Bacolod</h3>
+						<h3>Vijaynagar</h3>
 						<p>112 Properties</p>
 					</div>
 				</a>
 				<a href="#" class="gallery-item set-bg" data-setbg="img/gallery/3.jpg">
 					<div class="gi-info">
-						<h3>Binalbagan</h3>
+						<h3>Geetabhawan</h3>
 						<p>72 Properties</p>
 					</div>
 				</a>
 				<a href="#" class="gallery-item set-bg" data-setbg="img/gallery/4.jpg">
 					<div class="gi-info">
-						<h3>Hinigaran</h3>
+						<h3>Rajendra Nagar</h3>
 						<p>50 Properties</p>
 					</div>
 				</a>
@@ -222,7 +214,7 @@
 	</section>
 	<!-- Gallery section end -->
 
-	<!-- Blog section -->
+	<!-- Blog section 
 	<section class="blog-section spad">
 		<div class="container">
 			<div class="section-title text-center">
@@ -260,9 +252,10 @@
 			</div>
 		</div>
 	</section>
+	-->
 	<!-- Blog section end -->
 
-	<!-- Clients section -->
+	<!-- Clients section 
 	<div class="clients-section">
 		<div class="container">
 			<div class="clients-slider owl-carousel" style="background-color: blue">
@@ -284,6 +277,7 @@
 			</div>
 		</div>
 	</div>
+	-->
 	<!-- Clients section end -->
 
 
@@ -293,8 +287,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-6 footer-widget">
-					<img src="img/logo.png" alt="">
-					<p>A usually fixed periodical return made by a tenant or occupant of property to the owner for the possession and use thereof especially : an agreed sum paid at fixed intervals by a tenant to the landlord.</p>
+					<h4 class ="fw-title">Flat Rental System </h4>
+					<p>This website is made specially for the students or the professionals who come to study or for work.</p>
 					<div class="social">
 						<a href="#"><i class="fa fa-facebook"></i></a>
 						<a href="#"><i class="fa fa-twitter"></i></a>
@@ -306,28 +300,27 @@
 				<div class="col-lg-3 col-md-6 footer-widget">
 					<div class="contact-widget">
 						<h5 class="fw-title">CONTACT US</h5>
-						<p><i class="fa fa-map-marker"></i>Brgy.Enclaro, Binalbagan, Negros Occidental, Philippines</p>
-						<p><i class="fa fa-phone"></i>+639123456789</p>
-						<p><i class="fa fa-envelope"></i>www.piesrentalsystem@gmail.com</p>
+						<p><i class="fa fa-map-marker"></i>Shivampuri, Indore</p>
+						<p><i class="fa fa-phone"></i>+919669024735</p>
+						<p><i class="fa fa-envelope"></i>flatrentalsystem@gmail.com</p>
 						<p><i class="fa fa-clock-o"></i>Mon - Sat, 08 AM - 06 PM</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 footer-widget">
 					<div class="double-menu-widget">
-						<h5 class="fw-title">POPULAR PLACES</h5>
+						<h5 class="fw-title">POPULAR PLACES IN INDORE</h5>
 						<ul>
-							<li><a href="">Bacolod</a></li>
-							<li><a href="">Kabankalan</a></li>
-							<li><a href="">Himamaylan</a></li>
-							<li><a href="">Binalbagan</a></li>
-							<li><a href="">Hinigaran</a></li>
+							<li><a href="">Bhawarkua</a></li>
+							<li><a href="">Rajendra Nagar</a></li>
+							<li><a href="">Sapna Sangeeta</a></li>
+							<li><a href="">Silicon</a></li>
+							<li><a href="">Navlakha</a></li>
 						</ul>
 						<ul>
-							<li><a href="">Bago</a></li>
-							<li><a href="">Pontevedra</a></li>
-							<li><a href="">Don Salvador Benedicto</a></li>
-							<li><a href="">San Carlos</a></li>
-							<li><a href="">Talisay</a></li>
+							<li><a href="">Sarvanand Nagar</a></li>
+							<li><a href="">Vijaynagar</a></li>
+							<li><a href="">Geetabhawan</a></li>
+							
 						</ul>
 					</div>
 				</div>
@@ -339,11 +332,10 @@
 							<li><a href="{{route('index')}}">Home</a></li>
 							<li><a href="{{route('blog')}}">About Us</a></li>
 							<li><a href="{{route('postpage')}}">Properties</a></li>
-							<li><a href="{{route('blog')}}">Blog</a></li>
 							<li><a href="{{route('contact')}}">Contact</a></li>
 					</ul>
 				</div>
-				<span style="color:white">Online House Rental System. All Rights Reserved</span>
+				<span style="color:white">Flat Rental System. All Rights Reserved</span>
 			</div>
 		</div>
 	</footer>

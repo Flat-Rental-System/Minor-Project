@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>House Rental System</title>
+	<title>Flat Rental System</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="LERAMIZ Landing Page Template">
 	<meta name="keywords" content="LERAMIZ, unica, creative, html">
@@ -32,32 +32,25 @@
 		<div class="loader"></div>
 	</div>
 	
-	<!-- Header section -->
-	<header class="header-section">
-		<div class="header-top" style="background-color: green;">
+<!-- Header section -->
+<header class="header-section">
+		<div class="header-top" style="background-color: crimson;">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 header-top-left">
 						<div class="top-info">
-							<i class="fa fa-phone"></i>
-							+639123456789
+							Flat Rental System
 						</div>
-						<div class="top-info">
-							<i class="fa fa-envelope"></i>
-							piesrentalsystem@gmail.com
-						</div>
+						
 					</div>
 					<div class="col-lg-6 text-lg-right header-top-right">
-						<div class="top-social">
-							<a href=""><i class="fa fa-facebook"></i></a>
-							<a href=""><i class="fa fa-twitter"></i></a>
-							<a href=""><i class="fa fa-instagram"></i></a>
-							<a href=""><i class="fa fa-pinterest"></i></a>
-							<a href=""><i class="fa fa-linkedin"></i></a>
-						</div>
+						
 						<div class="user-panel">
+							
+						
 							<a href="#" id="registerbutton"><i class="fa fa-user-circle-o"></i> Register</a>
 							<a href="#" id="logbutton"><i class="fa fa-sign-in"></i> Login</a>
+							
 						</div>
 					</div>
 				</div>
@@ -67,7 +60,7 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="site-navbar">
-						<a href="#" class="site-logo"><img style="margin-top: -40px; opacity: 70%;" src="img/logo.png" alt=""></a>
+						
 						<div class="nav-switch">
 							<i class="fa fa-bars"></i>
 						</div>
@@ -75,7 +68,6 @@
 							<li><a href="{{route('index')}}">Home</a></li>
 							<li><a href="{{route('about')}}">About Us</a></li>
 							<li><a href="{{route('postpage')}}">Properties</a></li>
-							<li><a href="{{route('blog')}}">Blog</a></li>
 							<li><a href="{{route('contact')}}">Contact</a></li>
 						</ul>
 					</div>
@@ -130,7 +122,7 @@
 			</div>
 		</div>
 		
-		<!-- Review section -->
+		<!-- Review section
 		<section class="review-section set-bg" data-setbg="img/review-bg.jpg">
 			<div class="container">
 				<div class="review-slider owl-carousel">
@@ -177,6 +169,7 @@
 			</div>
 		</section>
 		<!-- Review section end-->
+		-->
 
 
 		<!-- Team section -->
@@ -198,11 +191,11 @@
 								</div>
 							</div>
 							<div class="member-info">
-								<h5>Jude Suares</h5>
-								<span>Real Estate  Agent</span>
+								<h5>Vivek Patidar</h5>
+								<span>Flat Agent</span>
 								<div class="member-contact">
-									<p><i class="fa fa-phone"></i>09213546721</p>
-									<p><i class="fa fa-envelope"></i>jude@gmail.com</p>
+									<p><i class="fa fa-phone"></i>+919302530190</p>
+									<p><i class="fa fa-envelope"></i>herevivekpatidar@gmail.com</p>
 								</div>
 							</div>
 						</div>
@@ -218,11 +211,11 @@
 								</div>
 							</div>
 							<div class="member-info">
-								<h5>Glenn Azuelo</h5>
-								<span>Researcher</span>
+								<h5>Aatush Mehta</h5>
+								<span>Hostel Agent</span>
 								<div class="member-contact">
-									<p><i class="fa fa-phone"></i>09273452671</p>
-									<p><i class="fa fa-envelope"></i>glenn@gmail.com</p>
+									<p><i class="fa fa-phone"></i>+917869007730</p>
+									<p><i class="fa fa-envelope"></i>mehtaaatush@gmail.com</p>
 								</div>
 							</div>
 						</div>
@@ -238,11 +231,11 @@
 								</div>
 							</div>
 							<div class="member-info">
-								<h5>Caren Bautista</h5>
-								<span>Publisher</span>
+								<h5>Sandeep Dhakad</h5>
+								<span>Room Agent</span>
 								<div class="member-contact">
-									<p><i class="fa fa-phone"></i>09124573451</p>
-									<p><i class="fa fa-envelope"></i>caren@gmail.com</p>
+									<p><i class="fa fa-phone"></i>+919399685881</p>
+									<p><i class="fa fa-envelope"></i>sandeepdhakad@gmail.com</p>
 								</div>
 							</div>
 						</div>
@@ -258,11 +251,11 @@
 								</div>
 							</div>
 							<div class="member-info">
-								<h5>Princely Cezar</h5>
-								<span>Real Estate Agent</span>
+								<h5>Shubham Dhakad</h5>
+								<span>PG Agent</span>
 								<div class="member-contact">
-									<p><i class="fa fa-phone"></i>09135672341</p>
-									<p><i class="fa fa-envelope"></i>princely@gmail.com</p>
+									<p><i class="fa fa-phone"></i>+919135672341</p>
+									<p><i class="fa fa-envelope"></i>shubhamdhakad@gmail.com</p>
 								</div>
 							</div>
 						</div>
@@ -275,7 +268,7 @@
 	<!-- page end -->
 
 
-	<!-- Clients section -->
+	<!-- Clients section 
 	<div class="clients-section">
 		<div class="container">
 			<div class="clients-slider owl-carousel">
@@ -298,15 +291,16 @@
 		</div>
 	</div>
 	<!-- Clients section end -->
+	-->
 
 
-	<!-- Footer section -->
-	<footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
+		<!-- Footer section -->
+		<footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-6 footer-widget">
-					<img src="img/logo.png" alt="">
-					<p>A usually fixed periodical return made by a tenant or occupant of property to the owner for the possession and use thereof especially : an agreed sum paid at fixed intervals by a tenant to the landlord.</p>
+					<h4 class ="fw-title">Flat Rental System </h4>
+					<p>This website is made specially for the students or the professionals who come to study or for work.</p>
 					<div class="social">
 						<a href="#"><i class="fa fa-facebook"></i></a>
 						<a href="#"><i class="fa fa-twitter"></i></a>
@@ -318,28 +312,27 @@
 				<div class="col-lg-3 col-md-6 footer-widget">
 					<div class="contact-widget">
 						<h5 class="fw-title">CONTACT US</h5>
-						<p><i class="fa fa-map-marker"></i>Brgy.Enclaro, Binalbagan, Negros Occidental, Philippines</p>
-						<p><i class="fa fa-phone"></i>+639123456789</p>
-						<p><i class="fa fa-envelope"></i>www.piesrentalsystem@gmail.com</p>
+						<p><i class="fa fa-map-marker"></i>Shivampuri, Indore</p>
+						<p><i class="fa fa-phone"></i>+919669024735</p>
+						<p><i class="fa fa-envelope"></i>flatrentalsystem@gmail.com</p>
 						<p><i class="fa fa-clock-o"></i>Mon - Sat, 08 AM - 06 PM</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 footer-widget">
 					<div class="double-menu-widget">
-						<h5 class="fw-title">POPULAR PLACES</h5>
+						<h5 class="fw-title">POPULAR PLACES IN INDORE</h5>
 						<ul>
-							<li><a href="">Bacolod</a></li>
-							<li><a href="">Kabankalan</a></li>
-							<li><a href="">Himamaylan</a></li>
-							<li><a href="">Binalbagan</a></li>
-							<li><a href="">Hinigaran</a></li>
+							<li><a href="">Bhawarkua</a></li>
+							<li><a href="">Rajendra Nagar</a></li>
+							<li><a href="">Sapna Sangeeta</a></li>
+							<li><a href="">Silicon</a></li>
+							<li><a href="">Navlakha</a></li>
 						</ul>
 						<ul>
-							<li><a href="">Bago</a></li>
-							<li><a href="">Pontevedra</a></li>
-							<li><a href="">Don Salvador Benedicto</a></li>
-							<li><a href="">San Carlos</a></li>
-							<li><a href="">Talisay</a></li>
+							<li><a href="">Sarvanand Nagar</a></li>
+							<li><a href="">Vijaynagar</a></li>
+							<li><a href="">Geetabhawan</a></li>
+							
 						</ul>
 					</div>
 				</div>
@@ -351,11 +344,10 @@
 							<li><a href="{{route('index')}}">Home</a></li>
 							<li><a href="{{route('blog')}}">About Us</a></li>
 							<li><a href="{{route('postpage')}}">Properties</a></li>
-							<li><a href="{{route('blog')}}">Blog</a></li>
 							<li><a href="{{route('contact')}}">Contact</a></li>
 					</ul>
 				</div>
-				<span style="color:white">Online House Rental System. All Rights Reserved</span>
+				<span style="color:white">Flat Rental System. All Rights Reserved</span>
 			</div>
 		</div>
 	</footer>
