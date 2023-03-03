@@ -34,7 +34,7 @@
 	
 <!-- Header section -->
 <header class="header-section">
-		<div class="header-top" style="background-color: grey;">
+		<div class="header-top" style="background-color: crimson;">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 header-top-left">
@@ -68,7 +68,6 @@
 							<li><a href="{{route('index')}}">Home</a></li>
 							<li><a href="{{route('about')}}">About Us</a></li>
 							<li><a href="{{route('postpage')}}">Properties</a></li>
-							<li><a href="{{route('blog')}}">Blog</a></li>
 							<li><a href="{{route('contact')}}">Contact</a></li>
 						</ul>
 					</div>
@@ -100,9 +99,9 @@
 		<div class="container">
 			<div id="map-canvas"></div>
 			<div class="contact-info-warp">
-				<p><i class="fa fa-map-marker"></i>Brgy.Enclaro,Binalbagan, Negros Occidental, Philippines</p>
-				<p><i class="fa fa-envelope"></i>www.piesrentalsystem@gmail.com</p>
-				<p><i class="fa fa-phone"></i>+639123456789</p>
+				<p><i class="fa fa-map-marker"></i>Shivampuri colony, Indore</p>
+				<p><i class="fa fa-envelope"></i>www.flatrentalsystem@gmail.com</p>
+				<p><i class="fa fa-phone"></i>+919669024735</p>
 			</div>
 			<div class="row">
 				<div class="col-lg-6">
@@ -112,7 +111,7 @@
 					<div class="contact-right">
 						<div class="section-title">
 							<h3>Get in touch</h3>
-							<p>Browse houses and flats for sale and to rent in your area</p>
+							<p>Browse Hostels and flats for rent in your area</p>
 						</div>
 						<form class="contact-form">
 							<div class="row">
@@ -124,7 +123,7 @@
 								</div>
 								<div class="col-md-12">
 									<textarea  placeholder="Your message"></textarea>
-									<button class="site-btn">SUMMIT NOW</button>
+									<button class="site-btn">SUBMIT NOW</button>
 								</div>
 							</div>
 						</form>
@@ -136,38 +135,16 @@
 	<!-- page end -->
 
 
-	<!-- Clients section -->
-	<div class="clients-section">
-		<div class="container">
-			<div class="clients-slider owl-carousel" style="background-color: blue">
-				<a href="#">
-					<img src="img/partner/1.png" alt="">
-				</a>
-				<a href="#">
-					<img src="img/partner/2.png" alt="">
-				</a>
-				<a href="#">
-					<img src="img/partner/3.png" alt="">
-				</a>
-				<a href="#">
-					<img src="img/partner/4.png" alt="">
-				</a>
-				<a href="#">
-					<img src="img/partner/5.png" alt="">
-				</a>
-			</div>
-		</div>
-	</div>
-	<!-- Clients section end -->
+	<
 
 
-<!-- Footer section -->
-<footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
+	<!-- Footer section -->
+	<footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-6 footer-widget">
-					<img src="img/logo.png" alt="">
-					<p>A usually fixed periodical return made by a tenant or occupant of property to the owner for the possession and use thereof especially : an agreed sum paid at fixed intervals by a tenant to the landlord.</p>
+					<h4 class ="fw-title">Flat Rental System </h4>
+					<p>This website is made specially for the students or the professionals who come to study or for work.</p>
 					<div class="social">
 						<a href="#"><i class="fa fa-facebook"></i></a>
 						<a href="#"><i class="fa fa-twitter"></i></a>
@@ -179,28 +156,27 @@
 				<div class="col-lg-3 col-md-6 footer-widget">
 					<div class="contact-widget">
 						<h5 class="fw-title">CONTACT US</h5>
-						<p><i class="fa fa-map-marker"></i>Brgy.Enclaro, Binalbagan, Negros Occidental, Philippines</p>
-						<p><i class="fa fa-phone"></i>+639123456789</p>
-						<p><i class="fa fa-envelope"></i>www.piesrentalsystem@gmail.com</p>
+						<p><i class="fa fa-map-marker"></i>Shivampuri, Indore</p>
+						<p><i class="fa fa-phone"></i>+919669024735</p>
+						<p><i class="fa fa-envelope"></i>flatrentalsystem@gmail.com</p>
 						<p><i class="fa fa-clock-o"></i>Mon - Sat, 08 AM - 06 PM</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 footer-widget">
 					<div class="double-menu-widget">
-						<h5 class="fw-title">POPULAR PLACES</h5>
+						<h5 class="fw-title">POPULAR PLACES IN INDORE</h5>
 						<ul>
-							<li><a href="">Bacolod</a></li>
-							<li><a href="">Kabankalan</a></li>
-							<li><a href="">Himamaylan</a></li>
-							<li><a href="">Binalbagan</a></li>
-							<li><a href="">Hinigaran</a></li>
+							<li><a href="">Bhawarkua</a></li>
+							<li><a href="">Rajendra Nagar</a></li>
+							<li><a href="">Sapna Sangeeta</a></li>
+							<li><a href="">Silicon</a></li>
+							<li><a href="">Navlakha</a></li>
 						</ul>
 						<ul>
-							<li><a href="">Bago</a></li>
-							<li><a href="">Pontevedra</a></li>
-							<li><a href="">Don Salvador Benedicto</a></li>
-							<li><a href="">San Carlos</a></li>
-							<li><a href="">Talisay</a></li>
+							<li><a href="">Sarvanand Nagar</a></li>
+							<li><a href="">Vijaynagar</a></li>
+							<li><a href="">Geetabhawan</a></li>
+							
 						</ul>
 					</div>
 				</div>
@@ -212,11 +188,10 @@
 							<li><a href="{{route('index')}}">Home</a></li>
 							<li><a href="{{route('blog')}}">About Us</a></li>
 							<li><a href="{{route('postpage')}}">Properties</a></li>
-							<li><a href="{{route('blog')}}">Blog</a></li>
 							<li><a href="{{route('contact')}}">Contact</a></li>
 					</ul>
 				</div>
-				<span style="color:white">Online House Rental System. All Rights Reserved</span>
+				<span style="color:white">Flat Rental System. All Rights Reserved</span>
 			</div>
 		</div>
 	</footer>

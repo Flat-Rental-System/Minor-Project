@@ -255,7 +255,7 @@
 					<div class="double-menu-widget">
 						<h5 class="fw-title">POPULAR PLACES</h5>
 						<ul>
-							<li><a href="">Khanewal</a></li>
+							<li><a href="">Indore</a></li>
 							<li><a href="">Karachi</a></li>
 							<li><a href="">KPK</a></li>
 							<li><a href="">Attock</a></li>

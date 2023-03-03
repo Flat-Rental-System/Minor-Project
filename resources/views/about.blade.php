@@ -185,9 +185,9 @@
 							<div class="member-pic">
 								<img src="img/team/1.jpg" alt="#">
 								<div class="member-social">
-									<a href=""><i class="fa fa-facebook"></i></a>
-									<a href=""><i class="fa fa-instagram"></i></a>
-									<a href=""><i class="fa fa-twitter"></i></a>
+								
+									<a href="https://www.instagram.com/v_i_v_e_k__patidar/"><i class="fa fa-instagram"></i></a>
+									
 								</div>
 							</div>
 							<div class="member-info">
@@ -205,9 +205,7 @@
 							<div class="member-pic">
 								<img src="img/team/2.jpg" alt="#">
 								<div class="member-social">
-									<a href=""><i class="fa fa-facebook"></i></a>
-									<a href=""><i class="fa fa-instagram"></i></a>
-									<a href=""><i class="fa fa-twitter"></i></a>
+									<a href="https://www.instagram.com/mehta_jiii/"><i class="fa fa-instagram"></i></a>
 								</div>
 							</div>
 							<div class="member-info">
@@ -225,9 +223,7 @@
 							<div class="member-pic">
 								<img src="img/team/3.jpg" alt="#">
 								<div class="member-social">
-									<a href=""><i class="fa fa-facebook"></i></a>
-									<a href=""><i class="fa fa-instagram"></i></a>
-									<a href=""><i class="fa fa-twitter"></i></a>
+									<a href="https://www.instagram.com/dkd_sndp/"><i class="fa fa-instagram"></i></a>
 								</div>
 							</div>
 							<div class="member-info">
@@ -245,9 +241,9 @@
 							<div class="member-pic">
 								<img src="img/team/4.jpg" alt="#">
 								<div class="member-social">
-									<a href=""><i class="fa fa-facebook"></i></a>
+									
 									<a href=""><i class="fa fa-instagram"></i></a>
-									<a href=""><i class="fa fa-twitter"></i></a>
+									
 								</div>
 							</div>
 							<div class="member-info">

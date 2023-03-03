@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>E-Home</title>
+	<title>E-Flats</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="LERAMIZ Landing Page Template">
 	<meta name="keywords" content="LERAMIZ, unica, creative, html">
@@ -256,7 +256,7 @@
 					<div class="double-menu-widget">
 						<h5 class="fw-title">POPULAR PLACES</h5>
 						<ul>
-							<li><a href="">Khanewal</a></li>
+							<li><a href="">Indore</a></li>
 							<li><a href="">Karachi</a></li>
 							<li><a href="">KPK</a></li>
 							<li><a href="">Attock</a></li>

@@ -236,32 +236,32 @@ body {
           </div>
           <div class="md-form pb-3">
             <select name="state" style="border-radius: 5px;border: none;padding: 10px 271px 10px 0;">
-             @if(Session('update_post')->state =="Punjab")
-              <option value="Punjab" selected>Punjab</option>
-              <option value="Sindh">Sindh</option>
-              <option value="Kpk">Kpk</option>
-              <option value="Blochistan">Blochistan</option>
+             @if(Session('update_post')->state =="Indore")
+              <option value="Indore" selected>Madhya Pradesh</option>
+              <option value="Sindh">Rajasthan</option>
+              <option value="Kpk">Uttarpradesh</option>
+              <option value="Blochistan">Tamil Nadu</option>
               @elseif(Session('update_post')->state =="Sindh")
-              <option value="Sindh" selected>Sindh</option>
-              <option value="Punjab">Punjab</option>
-              <option value="Kpk">Kpk</option>
-              <option value="Blochistan">Blochistan</option>
+              <option value="Indore" selected>Madhya Pradesh</option>
+              <option value="Sindh">Rajasthan</option>
+              <option value="Kpk">Uttarpradesh</option>
+              <option value="Blochistan">Tamil Nadu</option>
               @elseif(Session('update_post')->state =="Kpk")
-              <option value="Kpk" selected>Kpk</option>
-              <option value="Punjab">Punjab</option>
-              <option value="Sindh">Sindh</option>
-              <option value="Blochistan">Blochistan</option>
+              <option value="Indore" selected>Madhya Pradesh</option>
+              <option value="Sindh">Rajasthan</option>
+              <option value="Kpk">Uttarpradesh</option>
+              <option value="Blochistan">Tamil Nadu</option>
               @elseif(Session('update_post')->state =="Blochistan")
-              <option value="Blochistan" selected>Blochistan</option>
-              <option value="Punjab">Punjab</option>
-              <option value="Sindh">Sindh</option>
-              <option value="Kpk">Kpk</option>
+              <option value="Indore" selected>Madhya Pradesh</option>
+              <option value="Sindh">Rajasthan</option>
+              <option value="Kpk">Uttarpradesh</option>
+              <option value="Blochistan">Tamil Nadu</option>
               @endif
             </select> <br>
             <label data-error="wrong" data-success="right" for="Form-pass5"> Select State</label>
           </div>
           <div class="md-form pb-3">
-            <input type="text" name="address" value="{{Session('update_post')->address}}" autocomplete="off" placeholder="e.g DHA Multan" id="Form-pass5" class="form-control validate white-text">
+            <input type="text" name="address" value="{{Session('update_post')->address}}" autocomplete="off" placeholder="e.g DHA Indore" id="Form-pass5" class="form-control validate white-text">
             <label data-error="wrong" data-success="right" for="Form-pass5">Address</label>
           </div>
           <div class="md-form pb-3">

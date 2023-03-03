@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Online House Rental</title>
+    <title>Flat Rental System</title>
     <!-- Stylesheets -->
     <!-- Stylesheets -->
 	<link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}"/>
@@ -39,14 +39,14 @@ body {
     </div>
     <ul>
       <li class="active"><a href="{{route('advisor_dashboard')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-      <li><a href="{{route('advisor_post')}}"><i class="fa fa-folder-open"></i> My Post</a></li>
+      <li><a href="{{route('advisor_post')}}"><i class="fa fa-folder-open"></i> My Posts</a></li>
       <li><a href="{{route('advisor_profile')}}"><i class="fa fa-user"></i> Profile</a></li>
-      <li><a href="{{route('con',[Illuminate\Support\Facades\Auth::id()])}}"><i class="fa fa-comments"></i> Conversation</a></li>
+     <!-- <li><a href="{{route('con',[Illuminate\Support\Facades\Auth::id()])}}"><i class="fa fa-comments"></i> Conversation</a></li> -->
       <li><a href="{{route('logout')}}"><i class="fa fa-sign-out"></i> Logout</a></li>
     </ul>
   </div>
 </section>
-<section id="content">
+  <section id="content">
   <div id="header">
     <div class="header-nav" style="background-color: black;">
       <div class="menu-button">
@@ -57,7 +57,7 @@ body {
           <li class="nav-settings">
             <a href="#"><div title="Notification" class="font-icon"><i class="fa fa-tasks"></i><span style="float: left; margin-right: 5px; margin-top: 3px;" class="badge badge-light"></span></div></a>
           </li>
-          <li class="nav-mail">
+          <li class="nav-mail"> 
             @php
 
     $u = Illuminate\Support\Facades\Auth::user();
@@ -96,11 +96,11 @@ body {
                 }
             }
         }
-
+                         
     }
             @endphp
-            <a href="{{route('con',[Illuminate\Support\Facades\Auth::id()])}}"><div title="Masseges" class="font-icon"><i class="fa fa-envelope-o"></i><span style="float: left; margin-right: 5px; margin-top: 5px;" class="badge badge-light">{{$total_messages}}</span></div></a>
-          </li>
+         <!--   <a href="{{route('con',[Illuminate\Support\Facades\Auth::id()])}}"><div title="Masseges" class="font-icon"><i class="fa fa-envelope-o"></i><span style="float: left; margin-right: 5px; margin-top: 5px;" class="badge badge-light">{{$total_messages}}</span></div></a>
+          </li> -->
 
           <li class="nav-calendar">
             <a href="#"><div title="Your Post" class="font-icon"><i class="fa fa-calendar"></i><span style="float: left; margin-right: 5px; margin-top: 6px;" class="badge badge-light">{{\Illuminate\Support\Facades\Auth::user()->advisorrelation->post->count()}}</span></div></a>
@@ -110,12 +110,12 @@ body {
       </div>
     </div>
   </div>
-  <div class="content">
+ <!-- <div class="content">
     <div class="content-header" >
     @if(Illuminate\Support\Facades\Auth::user()->advisorrelation->is_recived==0) 
-    <form action="{{route('jazz_id')}}" method="post">
-        @csrf
-        <h3 style="margin-bottom:20px;">please pay $10 for post authorty on this number +923017160701.</h3>
+    <form action="{{route('jazz_id')}}" method="post">   -->
+        @csrf 
+      <!--  <h3 style="margin-bottom:20px;">please pay $10 for post authorty on this number +923017160701.</h3> -->
         @if ($errors->any())
           <div class="alert alert-danger alert-dismissable">
             <a class="panel-close close" data-dismiss="alert">×</a>
@@ -125,23 +125,23 @@ body {
             @endforeach
           </div>
         @endif
-        <div class="md-form ">
+     <!--   <div class="md-form ">
           <input type="trext" name="jazz_no" id="Form-pass5" class="form-control validate white-text">
           <label data-error="wrong" data-success="right" for="Form-pass5">Put Your Jazz Number</label>
         </div>
         <div class="md-form ">
           <input type="text" name="jazz_tra_id" id="Form-pass5"  class="form-control validate white-text">
           <label data-error="wrong" data-success="right" for="Form-pass5">Put Your Jazz Transection Id</label>
-        </div>
+        </div> -->
         <!--Grid row-->
-        <div class="row d-flex align-items-center mb-4">
+      <!--  <div class="row d-flex align-items-center mb-4"> -->
             <!--Grid column-->
-            <div class="text-center mb-3 col-md-2">
+         <!--   <div class="text-center mb-3 col-md-2">
               <button type="submit" class="btn btn-success btn-block btn-rounded z-depth-1">Send </button>
-            </div>
+            </div> -->
             <!--Grid column-->
-          </div>
-          <!--Grid row-->
+          </div> 
+          <!--Grid row--> 
       </form>
     @elseif(Illuminate\Support\Facades\Auth::user()->advisorrelation->is_recived==1) 
       @if(Illuminate\Support\Facades\Auth::user()->advisorrelation->is_upgrated==0) 
@@ -160,7 +160,7 @@ body {
     @endif
     @endif
     </div>
-    <div id="sortable">
+ <!--   <div id="sortable">
       <h2>What is Lorem Ipsum?</h2>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -188,7 +188,7 @@ body {
     </div>
   </div>
 </section>
-
+  -->
  <!-- Model For Post -->
 
 	
@@ -253,7 +253,7 @@ body {
           </div>
           <div class="md-form pb-3">
             <select name="state" style="border-radius: 5px;border: none;padding: 10px 271px 10px 0;">
-              <option value="Punjab">Punjab</option>
+              <option value="Indore">Indore</option>
               <option value="Sindh">Sindh</option>
               <option value="Kpk">Kpk</option>
               <option value="Blochistan">Blochistan</option>
@@ -261,7 +261,7 @@ body {
             <label data-error="wrong" data-success="right" for="Form-pass5"> Select State</label>
           </div>
           <div class="md-form pb-3">
-            <input type="text" name="address" autocomplete="off" placeholder="e.g DHA Multan" id="Form-pass5" class="form-control validate white-text">
+            <input type="text" name="address" autocomplete="off" placeholder="e.g DHA Indore" id="Form-pass5" class="form-control validate white-text">
             <label data-error="wrong" data-success="right" for="Form-pass5">Address</label>
           </div>
           <div class="md-form pb-3">
