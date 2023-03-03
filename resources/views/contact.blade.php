@@ -97,7 +97,9 @@
 	<!-- page -->
 	<section class="page-section blog-page">
 		<div class="container">
-			<div id="map-canvas"></div>
+			<div id="map-canvas">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.3782304566057!2d75.88698351496289!3d22.75134058509104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396302a814ca51dd%3A0xf684b03b6f0e52eb!2sSayaji%20Hotel%20Indore-%205%20star%20hotel%20in%20Indore!5e0!3m2!1sen!2sin!4v1642054365653!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
 			<div class="contact-info-warp">
 				<p><i class="fa fa-map-marker"></i>Shivampuri colony, Indore</p>
 				<p><i class="fa fa-envelope"></i>www.flatrentalsystem@gmail.com</p>
@@ -330,9 +332,9 @@
 	<script src="js/magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
 
-	<!-- load for map -->
+	<!-- load for map 
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0YyDTa0qqOjIerob2VTIwo_XVMhrruxo"></script>
-	<script src="js/map.js"></script>
+	<script src="js/map.js"></script>-->
 
 
 	<script> 
